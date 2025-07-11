@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PalaTos</string>
+    <string name="next">Next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">847123132487-inokll4db4k3a3ach7tmo7obmhttfdga.apps.googleusercontent.com</string>
+    <string name="app_logo" />
+    <string name="food_image" />
+
+        <string name="back_button_description">Navigate Back</string>
+
+        <!-- Menu Section Title -->
+        <string name="menu_section_title">Menu Section</string>
+    <string name="back_button" />
+    <string name="default_section_title" />
+    <string name="estimated_time_30_min">Estimated Time: 30 min</string>
+    <string name="items_n_green_tea_x_1_16_pln_n_rostbeef_x_1_16_pln_n_canape_x_1_16_pln">Items:\n• Green Tea x 1 16 PLN\n• Rostbeef x 1 16 PLN\n• Canape x 1 16 PLN</string>
+    <string name="pay">PAY</string>
+    <string name="order_6907">ORDER № 6907</string>
+    <string name="service_15_pln">Service: 15 PLN</string>
+    <string name="sub_total_130_pln">Sub-Total: 130 PLN</string>
+    <string name="time_of_order_12_51_27_01_01_2025">Time of Order: 12:51:27 01.01.2025</string>
+    <string name="total_135_pln">Total: 135 PLN</string>
+    <string name="waiter_kristina_kel">Waiter: Kristina Kel</string>
+
+
+</resources>

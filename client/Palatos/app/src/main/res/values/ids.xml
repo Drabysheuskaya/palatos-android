@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="donthavebutton" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="titleText" type="id" />
+    <item name="logo" type="id" />
+    <item name="sectionName" type="id" />
+    <item name="itemRecyclerView" type="id" />
+    <item name="sectionRecyclerView" type="id" />
+    <item name="sectionTitle" type="id" />
+    <item name="sectionsContainer" type="id" />
+    <item name="headerText" type="id" />
+    <item name="bottomNavigationView" type="id" />
+    <item name="menuTitle" type="id" />
+    <item name="logOutButton" type="id" />
+    <item name="continuedWorkText" type="id" />
+    <item name="editProfileButton" type="id" />
+    <item name="saveInfoButton" type="id" />
+    <item name="nameInput" type="id" />
+    <item name="tableNumberInput" type="id" />
+    <item name="phoneInput" type="id" />
+    <item name="fragmentContainer" type="id" />
+    <item name="totalPrice" type="id" />
+    <item name="tableCard" type="id" />
+    <item name="placeOrderButton" type="id" />
+    <item name="editNameButton" type="id" />
+    <item name="cartTitle" type="id" />
+    <item name="orderIdTextView" type="id" />
+    <item name="tableNumberTextView" type="id" />
+    <item name="waiterNameTextView" type="id" />
+    <item name="totalPriceTextView" type="id" />
+    <item name="statusTextView" type="id" />
+    <item name="estimatedTimeTextView" type="id" />
+    <item name="noOrdersText" type="id" />
+    <item name="ordersRecyclerView" type="id" />
+    <item name="fragment_feedback" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="feedbackTitle" type="id" />
+    <item name="nameTextView" type="id" />
+    <item name="orderNumberSpinner" type="id" />
+    <item name="feedbackEditText" type="id" />
+    <item name="sendFeedbackButton" type="id" />
+    <item name="tipAmountEditText" type="id" />
+    <item name="tipLabel" type="id" />
+    <item name="plnLabel" type="id" />
+</resources>

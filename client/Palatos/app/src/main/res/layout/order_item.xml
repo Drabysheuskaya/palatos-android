@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="#852224">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Order Number -->
+        <TextView
+            android:id="@+id/orderIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order_6907"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Waiter Name -->
+        <TextView
+            android:id="@+id/waiterNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/waiter_kristina_kel"
+            android:layout_marginTop="4dp"
+            android:textColor="#F7F7F7"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tableNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table: 5"
+            android:layout_marginTop="4dp"
+            android:textColor="#F7F7F7"
+            android:textSize="14sp" />
+
+        <!-- Estimated Time -->
+        <TextView
+            android:id="@+id/estimatedTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/estimated_time_30_min"
+            android:layout_marginTop="4dp"
+            android:textColor="#F7F7F7"
+            android:textSize="14sp" />
+
+        <!-- Time of Order -->
+        <TextView
+            android:id="@+id/timeOfOrderTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_of_order_12_51_27_01_01_2025"
+            android:layout_marginTop="4dp"
+            android:textColor="#F7F7F7"
+            android:textSize="14sp" />
+
+        <!-- Items List -->
+        <TextView
+            android:id="@+id/itemsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items:"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textColor="#F7F7F7"
+            android:textSize="16sp" />
+
+        <!-- Items List -->
+        <TextView
+            android:id="@+id/itemsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="• Green Tea  x 1    16 PLN\n• Rostbeef  x 1    16 PLN\n• Canape    x 1    16 PLN"
+            android:textColor="#F7F7F7"
+             />
+
+        <!-- Subtotal -->
+        <TextView
+            android:id="@+id/subtotalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_total_130_pln"
+            android:layout_marginTop="8dp"
+            android:textColor="#F7F7F7"
+            android:textSize="14sp" />
+
+        <!-- Service Charge -->
+        <TextView
+            android:id="@+id/serviceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_15_pln"
+            android:layout_marginTop="4dp"
+            android:textColor="#F7F7F7"
+            android:textSize="14sp" />
+
+        <!-- Total Price -->
+        <TextView
+            android:id="@+id/totalPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_135_pln"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textColor="#F7F7F7"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Pending"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold"
+            android:textColor="#F7F7F7"
+            android:textSize="16sp" />
+
+
+        <!-- Pay Button -->
+        <Button
+            android:id="@+id/payButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#852224"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

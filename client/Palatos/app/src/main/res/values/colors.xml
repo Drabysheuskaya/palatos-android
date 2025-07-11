@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColor">#862224</color>
+    <color name="startColor">#53E88B</color>
+    <color name="endColor">#15BE77</color>
+    <color name="iconColor">#FEAD1D</color>
+    <color name="burgundy">#800020</color>
+    <color name="burgundy_dark">#4B000F</color>
+
+    <!-- Navigation Item Colors -->
+    <color name="nav_item_color">#8A8A8A</color> <!-- Default color for unselected items -->
+    <color name="nav_item_selected_color">#15BE77</color> <!-- Color for selected items -->
+</resources>

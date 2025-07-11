@@ -1,0 +1,44 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splashFragment">
+
+        <fragment
+            android:id="@+id/splashFragment"
+            android:name="com.example.PalaTos.Fragment.SplashFragment"
+            android:label="Splash"
+            tools:layout="@layout/fragment_splash" />
+
+        <fragment
+            android:id="@+id/homeFragment"
+            android:name="com.example.PalaTos.Fragment.HomeFragment"
+            android:label="Home"
+            tools:layout="@layout/fragment_home">
+            <argument
+                android:name="restaurantKey"
+                app:argType="string" />
+            <argument
+                android:name="menuSection"
+                app:argType="string" />
+        </fragment>
+
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.PalaTos.Fragment.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.PalaTos.Fragment.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.PalaTos.Fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

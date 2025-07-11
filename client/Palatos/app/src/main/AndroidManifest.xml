@@ -1,0 +1,80 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Palatos"
+        tools:targetApi="31">
+
+        <!-- SplashScreen: Initial activity shown when the app launches -->
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- StartActivity: The welcome screen after SplashScreen -->
+        <activity
+            android:name=".StartActivity"
+            android:exported="true" />
+
+        <!-- LoginActivity: The login screen -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- SignActivity: User sign-in or sign-up -->
+        <activity
+            android:name=".SignActivity"
+            android:exported="true" />
+
+        <!-- ChooseLocationActivity: Location selection screen -->
+        <activity
+            android:name=".ChooseLocationActivity"
+            android:exported="true" />
+
+        <!-- RestaurantDetailActivity: Displays restaurant details -->
+        <activity
+            android:name=".RestaurantDetailActivity"
+            android:exported="true" />
+
+        <!-- MainActivity: Main dashboard hosting HomeFragment -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- OrderInfoActivity: Order details and placement screen -->
+        <activity
+            android:name=".OrderInfoActivity"
+            android:exported="true" />
+
+        <!-- DetailsActivity: Details for an item -->
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+
+        <!-- CongratsActivity: Confirmation screen after order placement -->
+        <activity
+            android:name=".CongratsActivity"
+            android:exported="true" />
+
+        <!-- ResetPasswordActivity: Reset password screen -->
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="true" />
+
+        <!-- Add any additional activities as needed -->
+
+    </application>
+
+</manifest>

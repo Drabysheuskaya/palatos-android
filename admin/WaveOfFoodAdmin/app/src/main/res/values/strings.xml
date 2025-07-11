@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wave Of Food Admin</string>
+    <string-array name="status_process_options">
+        <item>Delivered</item>
+        <item>In Progress</item>
+    </string-array>
+
+
+</resources>

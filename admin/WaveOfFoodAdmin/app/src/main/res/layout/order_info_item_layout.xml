@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- User Information -->
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User: John Doe"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Order Time -->
+    <TextView
+        android:id="@+id/tvOrderTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12:13:22"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Order Details -->
+    <TextView
+        android:id="@+id/tvOrderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order #: A34498\nTable: 1\nWaiter: Kristina"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#757575"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Items Section -->
+    <TextView
+        android:id="@+id/tvItemsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Items:"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Green Tea x 1 - 16 PLN\n• Roastbeef x 2 - 35 PLN"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Subtotal -->
+    <TextView
+        android:id="@+id/tvSubtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub-Total: 0 PLN"
+        android:textStyle="bold"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Service -->
+    <TextView
+        android:id="@+id/tvService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service: 0 PLN"
+        android:textStyle="bold"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Total -->
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: 0 PLN"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Payment and Status Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <!-- Payment Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvPaymentLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="Payment"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerPaymentStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:popupBackground="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Status Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tvStatusLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp" />
+
+            <Spinner
+                android:id="@+id/spinnerStatusProcess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:popupBackground="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSave"
+        style="@style/CustomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="SAVE" />
+</LinearLayout>

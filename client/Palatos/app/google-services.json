@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "847123132487",
+    "firebase_url": "https://palatos-6612b-default-rtdb.firebaseio.com",
+    "project_id": "palatos-6612b",
+    "storage_bucket": "palatos-6612b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847123132487:android:cd4b00df408419f26dc162",
+        "android_client_info": {
+          "package_name": "com.example.PalaTos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847123132487-60dttq25d9sm1uf994i78pht1ntk1kok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.PalaTos",
+            "certificate_hash": "6f3a4cb747d654c2ca98d4275a25debac06c28be"
+          }
+        },
+        {
+          "client_id": "847123132487-inokll4db4k3a3ach7tmo7obmhttfdga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC68W3jgwVJd11RohVgqPBKThJs-o6lqmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847123132487-inokll4db4k3a3ach7tmo7obmhttfdga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

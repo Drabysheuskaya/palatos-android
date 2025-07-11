@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Pencil body -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M3,17.25L9.92,10.33L13.67,14.08L6.75,21H3z" />
+
+    <!-- Eraser top -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M14.71,9.71L12.29,7.29L15.88,3.71L18.29,6.12L14.71,9.71z" />
+
+    <!-- Pencil bottom -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M2,20.5V23h2.5L14.42,13.08L11.67,10.33L2,20.5z" />
+
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color of the spinner -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#862225" /> <!-- Background color -->
+        </shape>
+    </item>
+
+    <!-- Dropdown icon with proper spacing -->
+    <item
+        android:drawable="@drawable/ic_spinner_arrow"
+        android:left="16dp"
+    android:gravity="end|center_vertical" />
+</layer-list>

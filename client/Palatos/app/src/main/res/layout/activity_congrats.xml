@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF0F6"
+    tools:context=".CongratsActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/orderPlacedTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Your Order Placed"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/burgundy"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Back Button"
+        android:padding="12dp"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:elevation="4dp"
+        android:scaleType="centerInside" />
+
+
+    <!-- Success Icon -->
+    <ImageView
+        android:id="@+id/successIcon"
+        android:layout_width="181dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/congratulation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/orderPlacedTitle" />
+
+    <!-- Order Placed Message -->
+    <TextView
+        android:id="@+id/orderPlacedMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Your order is placed!\n\nNow you can pay for the order in the pay section or by clicking the button below!"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/successIcon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!-- Bottom Navigation -->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/payButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/rounded_button"
+        android:text="PAY"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/orderPlacedMessage" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- User Name -->
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User: [User Name]"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Order Time -->
+        <TextView
+            android:id="@+id/tvOrderTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: [Order Time]"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Order Details -->
+        <TextView
+            android:id="@+id/tvOrderDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order #: [Order ID] | Table: [Table Number] | Waiter: [Waiter Name]"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Items Section -->
+        <TextView
+            android:id="@+id/tvItemsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Items:"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Items -->
+        <TextView
+            android:id="@+id/tvItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Item 1 x 2 - 20 PLN\n• Item 2 x 1 - 15 PLN"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"  />
+
+        <!-- Subtotal -->
+        <TextView
+            android:id="@+id/tvSubtotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub-Total: [Subtotal] PLN"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"  />
+
+        <!-- Service -->
+        <TextView
+            android:id="@+id/tvService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service: [Service Fee] PLN"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Total -->
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total: [Total Amount] PLN"
+            android:textColor="#852224"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"  />
+
+        <!-- Progress Status -->
+        <TextView
+            android:id="@+id/tvProgressStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress: [Progress Status]"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"  />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: [Payment Status]"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"  />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
